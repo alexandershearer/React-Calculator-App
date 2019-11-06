@@ -1,0 +1,26 @@
+.Calculator{
+    margin: 0;
+    height: 70vh;
+    width: 35%;
+    background-color: rgba(221, 223, 199, 0.521);
+    /* border-radius: 5%; */
+    box-shadow: 13px 16px 53px 23px rgba(33, 49, 63, 0.75);
+    transition: 1s;
+    
+}
+.Calculator:hover{
+    background-color: rgba(221, 223, 199);
+    transition: 1s;
+}
+
+@media screen and (max-width: 1280px) {
+    .Calculator {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 640) {
+    .Calculator {
+        width: 80%;
+    }
+}
