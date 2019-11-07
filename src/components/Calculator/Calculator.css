@@ -2,7 +2,8 @@
     margin: 0;
     height: 70vh;
     width: 30%;
-    background-color: rgba(221, 223, 199);
+    background-color: rgb(179, 180, 164);
+    border: 2px double rgb(20, 20, 20);
     opacity: 0.6;
     /* border-radius: 5%; */
     box-shadow: 13px 16px 53px 23px rgba(33, 49, 63, 0.75);
