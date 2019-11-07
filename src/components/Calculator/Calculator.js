@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import './Calculator.css'
+import Screen from '../Screen/Screen';
 
 class Calculator extends Component {
     render() {
         return(
-            <h1 className="Calculator"></h1>
+            <div className="Calculator">
+                <Screen />
+            </div>
         );
     }
 }

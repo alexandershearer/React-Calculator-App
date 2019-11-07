@@ -1,0 +1,16 @@
+.Screen {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    transition: 1s;
+    overflow: hidden;
+    padding: 0 10px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-align: right;
+    
+}
+.Screen:hover{
+    /* background-color: rgb(27, 27, 27); */
+    transition: 1s;
+}
