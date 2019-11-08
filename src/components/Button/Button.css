@@ -19,7 +19,7 @@
     transition: 0.2s;
 }
 .Button:active {
-    transform: scale(.65);
+    transform: scale(.95);
 }
 
 .Button-primary {
