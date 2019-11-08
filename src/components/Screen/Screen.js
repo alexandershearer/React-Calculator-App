@@ -7,8 +7,8 @@ class Screen extends Component {
     render() {
         return (
             <div className="Screen">
-                <ResultsScreen>0</ResultsScreen>
-                <ComputationScreen> 2 + 3 </ComputationScreen>
+                <ResultsScreen>{this.props.result}</ResultsScreen>
+                <ComputationScreen>{this.props.equation}</ComputationScreen>
             </div>
         );
     }

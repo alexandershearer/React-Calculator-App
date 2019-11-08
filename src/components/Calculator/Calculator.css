@@ -2,9 +2,9 @@
     margin: 0;
     height: 70vh;
     width: 30%;
-    background-color: rgb(179, 180, 164);
-    border: 2px double rgb(20, 20, 20);
-    opacity: 0.6;
+    background-color: rgb(29, 29, 29);
+    border: 2px double rgb(255, 255, 255);
+    opacity: 0.8;
     /* border-radius: 5%; */
     box-shadow: 13px 16px 53px 23px rgba(33, 49, 63, 0.75);
     transition: all 1s;
@@ -13,7 +13,7 @@
 .Calculator:hover{
     /* background-color: rgba(221, 223, 199); */
     color: white;
-    opacity: 0.85;
+    opacity: 1;
     /* transition: 1s; */
 }
 
